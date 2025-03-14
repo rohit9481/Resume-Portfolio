@@ -2,14 +2,33 @@
 <html>
 <head>
     <title>About Me - Rohit Yakkundi</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .resume-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        iframe {
+            border: none;
+            width: 72%;
+            height: 600px;
+        }
+    </style>
 </head>
 <body>
-    <p><h3>Welcome to my Resume page! Here’s my Resume:</h3></p>
+    <div class="resume-container">
+        <h3>Welcome to my Resume page! Here’s my Resume:</h3>
+        <p>If the resume is not visible, click below to open it:</p>
+        <p><a href="https://drive.google.com/file/d/1tTnbQNU82zcFoIqE1rFEVt1GWFi6TUJS/view?usp=sharing" target="_blank">Open the document directly</a> ⬇️</p>
 
-    <p>Click on "Open the document directly"⬇️</p>
-    <!-- Embed Resume from Google Drive -->
-    <iframe src="https://drive.google.com/file/d/1n5Jv1YP4n6haumCGFs1b1TtqXlJN1v1U/view?usp=sharing" 
-            width="100%" height="700px"></iframe>
-
+        <!-- Embedded Resume -->
+        <iframe src="https://drive.google.com/file/d/1tTnbQNU82zcFoIqE1rFEVt1GWFi6TUJS/preview"></iframe>
+    </div>
 </body>
 </html>
